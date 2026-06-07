@@ -40,8 +40,12 @@ img {
   margin-bottom: 15px; /* Dá um respiro entre a imagem e a pergunta abaixo dela */
 }
 
+h1 {
+  font-size: 1.8rem;
+}
+
 h3 {
-  font-size: 1.18rem;
+  font-size: 1.1rem;
 }
 
 .h3-page-sim {
@@ -54,7 +58,7 @@ h3 {
   background-color: red;
   border-radius: 10px;
   color: white;
-  margin-left: -16%;
+  margin-left: -23%;
 }
 
 #nao {
@@ -64,5 +68,5 @@ h3 {
   background-color: red;
   border-radius: 10px;
   color: white;
-  margin: 0 20px;
+  margin: 0 13px;
 }
