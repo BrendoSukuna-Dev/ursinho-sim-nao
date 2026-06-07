@@ -1,0 +1,54 @@
+* {
+  font-family: cursive;
+}
+
+body {
+  background-color: brown;
+}
+
+.painel {
+  margin: auto;
+  background-color: aliceblue;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+.painel-page-sim {
+  margin: auto;
+  background-color: aliceblue;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+h3 {
+  font-size: 1.18rem;
+}
+
+.h3-page-sim {
+  font-size: 2rem;
+}
+
+#sim {
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  margin-left: -16%;
+}
+
+#nao {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  margin: 0 20px;
+}
