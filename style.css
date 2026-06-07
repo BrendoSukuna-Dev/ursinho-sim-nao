@@ -8,7 +8,7 @@ body {
 
 .painel {
   margin: auto;
-  background-color: aliceblue;
+  background-color: white;
   width: 500px;
   height: 500px;
   border-radius: 20px;
@@ -18,7 +18,7 @@ body {
 
 .painel-page-sim {
   margin: auto;
-  background-color: aliceblue;
+  background-color: white;
   width: 500px;
   height: 500px;
   border-radius: 20px;
