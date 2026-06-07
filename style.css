@@ -34,7 +34,7 @@ body {
 
 img {
   max-width: 100%; /* Garante que a imagem nunca seja maior que o painel */
-  width: 250px; /* Define o tamanho ideal do GIF (ajuste esse valor se quiser maior ou menor) */
+  width: 350px; /* Define o tamanho ideal do GIF (ajuste esse valor se quiser maior ou menor) */
   height: auto; /* Mantém a proporção original, para o GIF não ficar esticado ou achatado */
   border-radius: 10px; /* Mantém as bordinhas arredondadas */
   margin-bottom: 15px; /* Dá um respiro entre a imagem e a pergunta abaixo dela */
