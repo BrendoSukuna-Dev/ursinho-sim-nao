@@ -52,3 +52,80 @@ h3 {
   color: white;
   margin: 0 20px;
 }
+
+/* Responsividade para Mobile */
+@media (max-width: 768px) {
+  .painel,
+  .painel-page-sim {
+    width: 90vw;
+    height: 90vw;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 15px 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .h3-page-sim {
+    font-size: 1.5rem;
+  }
+
+  #sim {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #nao {
+    position: relative;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .painel,
+  .painel-page-sim {
+    width: 95vw;
+    height: 95vw;
+    padding: 12px 0;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  .h3-page-sim {
+    font-size: 1.2rem;
+  }
+
+  #sim,
+  #nao {
+    height: 35px;
+    width: 55px;
+  }
+}
+
+@media (max-width: 320px) {
+  .painel,
+  .painel-page-sim {
+    width: 95vw;
+    height: 95vw;
+    padding: 10px 0;
+  }
+
+  h3 {
+    font-size: 0.85rem;
+  }
+
+  .h3-page-sim {
+    font-size: 1rem;
+  }
+
+  #sim,
+  #nao {
+    height: 32px;
+    width: 50px;
+  }
+}
