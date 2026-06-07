@@ -4,12 +4,6 @@
 
 body {
   background-color: brown;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  padding: 10px;
 }
 
 .painel {
@@ -20,7 +14,6 @@ body {
   border-radius: 20px;
   text-align: center;
   padding: 20px 0 20px;
-  position: relative;
 }
 
 .painel-page-sim {
@@ -31,7 +24,6 @@ body {
   border-radius: 20px;
   text-align: center;
   padding: 20px 0 40px;
-  position: relative;
 }
 
 h3 {
@@ -59,159 +51,4 @@ h3 {
   border-radius: 10px;
   color: white;
   margin: 0 20px;
-}
-
-/* Responsividade para Tablet e Mobile Grande (769px a 1024px) */
-@media (max-width: 1024px) and (min-width: 769px) {
-  .painel,
-  .painel-page-sim {
-    width: 70vw;
-    height: 70vw;
-    max-width: 500px;
-    max-height: 500px;
-  }
-}
-
-/* Responsividade para Tablet Pequeno (481px a 768px) */
-@media (max-width: 768px) and (min-width: 481px) {
-  body {
-    padding: 15px;
-  }
-
-  .painel,
-  .painel-page-sim {
-    width: 80vw;
-    height: 80vw;
-    max-width: 450px;
-    max-height: 450px;
-    padding: 15px 0;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  .h3-page-sim {
-    font-size: 1.5rem;
-  }
-
-  #sim {
-    margin-left: -15%;
-  }
-
-  #nao {
-    position: static;
-    display: block;
-    margin: 15px auto !important;
-  }
-}
-
-/* Responsividade para Mobile Grande (377px a 480px) */
-@media (max-width: 480px) and (min-width: 377px) {
-  body {
-    padding: 10px;
-  }
-
-  .painel,
-  .painel-page-sim {
-    width: 90vw;
-    height: 90vw;
-    max-width: 95%;
-    padding: 15px 0;
-  }
-
-  h3 {
-    font-size: 0.95rem;
-  }
-
-  .h3-page-sim {
-    font-size: 1.3rem;
-  }
-
-  #sim {
-    height: 38px;
-    width: 58px;
-    margin-left: -14%;
-  }
-
-  #nao {
-    position: static;
-    display: block;
-    height: 38px;
-    width: 58px;
-    margin: 12px auto !important;
-  }
-}
-
-/* Responsividade para Mobile Pequeno (321px a 376px) */
-@media (max-width: 376px) and (min-width: 321px) {
-  body {
-    padding: 8px;
-  }
-
-  .painel,
-  .painel-page-sim {
-    width: 95vw;
-    height: 95vw;
-    padding: 12px 0;
-  }
-
-  h3 {
-    font-size: 0.9rem;
-  }
-
-  .h3-page-sim {
-    font-size: 1.1rem;
-  }
-
-  #sim {
-    height: 36px;
-    width: 55px;
-    margin-left: -13%;
-  }
-
-  #nao {
-    position: static;
-    display: block;
-    height: 36px;
-    width: 55px;
-    margin: 10px auto !important;
-  }
-}
-
-/* Responsividade para Mobile Extra Pequeno (até 320px) */
-@media (max-width: 320px) {
-  body {
-    padding: 5px;
-  }
-
-  .painel,
-  .painel-page-sim {
-    width: 97vw;
-    height: 97vw;
-    padding: 10px 0;
-    border-radius: 15px;
-  }
-
-  h3 {
-    font-size: 0.8rem;
-  }
-
-  .h3-page-sim {
-    font-size: 0.95rem;
-  }
-
-  #sim {
-    height: 34px;
-    width: 52px;
-    margin-left: -12%;
-  }
-
-  #nao {
-    position: static;
-    display: block;
-    height: 34px;
-    width: 52px;
-    margin: 8px auto !important;
-  }
 }
